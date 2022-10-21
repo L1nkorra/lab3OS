@@ -1,0 +1,99 @@
+501  cd lab3OS/labfiles/Криптозоология/tests/
+  502  egrep -h -r '[3-5][+,-]*$'
+  503  egrep -h -r '[3-5][+,-]*$' | grep '2022' | egrep '^[A-Z]-[0-9]{2}-19'| sed -E -e 's/-([0-9]){2};/,/' -e 's/;2022;([0-9]){1,2};/ /' | sort > res_Криптозоология.txt
+  504  echo -n 'Неудачные попытки за 2022 год' >> res_Криптозоология.txt
+  505  egrep -h -r --include=TEST-[0-9] '[0-2][+,-]*$' >> res_Криптозоология.txt
+  506  egrep -h -r --include=TEST-[0-9] '[0-2][+,-]*$' | grep -c '2022' >> res_Криптозоология.txt
+  507  egrep -h -r --include=TEST-[0-9] '[0-2][+,-]*$'
+  508  egrep -h -r --include=TEST-[0-9] '[0-2][+,-]*$' | grep -c '2022'
+  509  egrep -h -r --include=TEST-[0-9] '[0-2][+,-]*$' | grep -c '2022' >> res_Криптозоология.txt
+  510  mv res_Криптозоология.txt d:/games/os/lab3OS/labfiles
+  511  cd Пивоварение
+  512  cd ./
+  513  cd /
+  514  cd
+  515  cd d:games
+  516  cd os/lab3OS/labfiles/Пивоварение/tests/
+  517  egrep -h -r '[3-5][+,-]*$' | grep '2022' | egrep '^[A-Z]-[0-9]{2}-19'| sed -E -e 's/-([0-9]){2};/,/' -e 's/;2022;([0-9]){1,2};/ /' | sort > res_Пивоварение.txt
+  518  echo -n 'Неудачные попытки за 2022 год' >> res_Пивоварение.txt
+  519  egrep -h -r --include=TEST-[0-9] '[0-2][+,-]*$' | grep -c '2022' >> res_Пивоварение.txt
+  520  mv res_Пивоварение.txt d:/games/os/lab3OS/labfiles
+  521  cd d:games:os:lab3os:labfiles
+  522  cd /.
+  523  cd d:games
+  524  cd os/lab3OS/labfiles/Пивоварение - копиф
+  525  cd os/lab3OS/labfiles/Пивоварение - копия
+  526  cd os/lab3OS/labfiles/Пивоварение\ -
+  527  cd os/lab3OS/labfiles/Пивоварение\-\копия
+  528  cd os/lab3OS/labfiles/Пивоварение\ - \копия
+  529  cd os/lab3OS/labfiles/Пивоварение \ - \копия
+  530  cd os/lab3OS/labfiles/Пивоварение2
+  531  cd tests
+  532  sed -E 's/^A-09,OsipovYegY ([0-3]){1}$/A-09, OsipovYegY 100/'
+  533  sed -E 's/^A-09,OsipovYegY ([0-3]){1}$/A-09, OsipovYegY 100/'
+  534  sed -E 's/^A-09,OsipovYegY ([0-3]){1}$/A-09, OsipovYegY 100/' TEST-[1-4]
+  535  egrep -h -r '^A-09-19.OsipovYegY'
+  536  sed -E '/^A-09,OsipovYegY ([0-3]){1}$/A-09, OsipovYegY 100/' TEST-[1-4]
+  537  sed -E 's/^A-09-19.OsipovYegY ([0-3]){1}$/A-09, OsipovYegY 100/' TEST-[1-4]
+  538  sed -E 's/^A-09-19.OsipovYegY. + ([0-3]){1}$/A-09, OsipovYegY 100/' TEST-[1-4]
+  539  sed -E 's/^A-09-19.OsipovYegY. + ([0-3][+]*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  540  sed -E 's/^A-09-19.OsipovYegY. + ([0-3][+,-]*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  541  sed -E 's/^A-09-19.OsipovYegY. + ([0-3]{1}*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  542  sed -E 's/^A-09-19.OsipovYegY. + ([0-3]){1}*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  543  egrep -h -r '^A-09-19.OsipovYegY'
+  544  sed -E 's/^A-09.OsipovYegY. + ([0-3]){1}*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  545  sed -E 's/^A-09.OsipovYegY + ([0-3]){1}*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  546  sed -E -i 's/^A-09.OsipovYegY + ([0-3]){1}*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  547  egrep -h -r '^A-09-19.OsipovYegY'
+  548  sed -E -e 's/^A-09.OsipovYegY + ([0-3]){1}*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  549  sed -E  's/^A-09,OsipovYegY + [0-3]{1}*$/A-09, OsipovYegY 100/' TEST-[1-4]
+  550  sed -E '/OsipovYegY/s/2/3/g' -i TEST-[1-4]
+  551  egrep -h -r '^A-09-19.OsipovYegY'
+  552  sed -E '/OsipovYegY/s/3/4/g' -i TEST-[1-4]
+  553  egrep -h -r '^A-09-19.OsipovYegY'
+  554  cd d:/games/os/lab3OS
+  555  cd labfiles
+  556  dir
+  557  cd Пивоварение
+  558  cd test
+  559  cd tests
+  560  egrep -h -r '^A-09-19.OsipovYegY'
+  561  sed -E '/OsipovYegY/s/4/5/g' -i TEST-[1-4]
+  562  egrep -h -r '^A-09-19.OsipovYegY'
+  563  sed -E '/OsipovYegY/s/3/4/g' -i TEST-[1-4]
+  564  sed -E '/OsipovYegY/s/2/3/g' -i TEST-[1-4]
+  565  egrep -h -r '^A-09-19.OsipovYegY'
+  566  cd d:/games/os/lab3OS/labfiles
+  567  cd Криптозоология
+  568  cd tests
+  569  sed -E '/OsipovYegY/s/4/5/g' -i TEST-[1-4]
+  570  sed -E '/OsipovYegY/s/3/4/g' -i TEST-[1-4]
+  571  sed -E '/OsipovYegY/s/2/3/g' -i TEST-[1-4]
+  572  egrep -h -r '^A-09-19.OsipovYegY'
+  573  cd -
+  574  sed -E '/OsipovYegY/s/0/1/g' -i A-09-19-attendance
+  575  egrep -h -r '^A-09-19.OsipovYegY'
+  576  egrep -h -r 'OsipovYegY'
+  577  cd -
+  578  cd -
+  579  cd --
+  580  cd d:/games/os/lab3OS/labfiles/
+  581  cd Пивоварение/
+  582  sed -E '/OsipovYegY/s/0/1/g' -i A-09-19-attendance
+  583  egrep -h -r 'OsipovYegY'
+  584  cd -
+  585  cd -
+  586  cd -
+  587  cd students/
+  588  dir
+  589  cd general/
+  590  cd
+  591  cd d:/games/os/lab3OS/labfiles/
+  592  cd students/
+  593  cd general/
+  594  dir
+  595  cd notes
+  596  dir
+  597  vim ONames.log
+  598  grep 'OsipovYegY' -A2 ONames.log
+  599  history
